@@ -1,0 +1,145 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(209, 219, 228);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    overflow: hidden;
+    max-width: 900px;
+    width: 100%;
+}
+
+.form_sec, .content {
+    flex: 1;
+    padding: 40px;
+}
+
+.form_sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_sec h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form_sec ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.form_sec ul li {
+    font-size: 16px;
+    background-color: #e7e0e0;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form_sec ul li:hover {
+    background-color: #d1d9e4;
+}
+
+.form_sec p {
+    font-size: 14px;
+    font-style: italic;
+    opacity: 0.7;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form_sec form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_sec form input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    font-size: 16px;
+}
+
+.form_sec form button {
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #742E10;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form_sec form button:hover {
+    background-color: #F3D18D;
+}
+
+.content {
+    background-color: #4F6F52;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 80px 0 0 80px;
+}
+
+.content h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.content button {
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.content button:hover {
+    background-color: white;
+    color: indigo;
+}
+
+.hidden {
+    display: none;
+}

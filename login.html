@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Signup Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="form_sec" id="formSection">
+            <h2 id="formTitle">Sign In</h2>
+            <ul>
+                <li><i class="fab fa-google"></i></li>
+                <li><i class="fab fa-facebook-f"></i></li>
+                <li><i class="fab fa-github"></i></li>
+                <li><i class="fab fa-linkedin-in"></i></li>
+            </ul>
+            <p id="formSubtitle">Or use your email account</p>
+            <form id="authForm">
+                <input type="email" placeholder="Email" id="emailInput">
+                <input type="password" placeholder="Password" id="passwordInput">
+                <input type="text" placeholder="Username" id="usernameInput" class="hidden">
+                <p><a href="#" id="formLink" style="text-decoration: none; color: indigo;">Forgot your password?</a></p>
+                <button type="submit" id="formButton">Sign In</button>
+            </form>
+        </div>
+        <div class="content">
+            <h2 id="toggleTitle">Hello, Friend!</h2>
+            <p id="toggleText">Register with your personal details to start using all our features</p>
+            <button type="button" id="toggleButton">Sign Up</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
